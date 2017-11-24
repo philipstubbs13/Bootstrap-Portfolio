@@ -1,0 +1,159 @@
+body {
+    line-height: 150%;
+    font-size: 18px;
+}
+
+
+/*--------------HEADER-----------------*/
+.name-block {
+    float: left;
+    text-align: center;
+    border: 5px solid #4aaaa5;
+    background-color: #4aaaa5;
+    padding: 20px;
+    width: 200px;
+    height: 30px; 
+    left: 50px;
+    margin-left: 210px;
+    font-weight: 400;
+    position: absolute;
+    left: 0px;
+}
+
+/*----------NAVIGATION----------*/
+.navbar {
+    background-color: #fff;
+}
+
+.nav-link a {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.nav-link a:hover {
+    color: red;
+}
+
+.nav-link a:focus {
+    color: orange;
+}
+
+.nav-link a:active {
+    color: blue;
+}
+
+/*------------Main section and sidebar------------ */
+.container {
+    clear: both;
+    margin: 0 auto;
+    flex: 1 0 auto;   
+}
+
+p, form, a {
+    color: #777777;
+    line-height: 160%;
+}
+
+
+/*----------SOCIAL ICONS------------*/
+#github-logo {
+    width: 53px;
+    height: 53px;
+}
+
+
+#linkedin-logo {
+    width: 53px;
+    height: 53px;
+}
+
+
+#stackoverflow-logo {
+    width: 53px;
+    height: 53px;
+}
+
+
+/*------------PORTFOLIO---------------*/
+.card-body-portfolio:hover{
+    background-color: orange;
+}
+
+.card-body-portfolio:active{
+    background-color: green;
+}
+
+
+.project {
+    z-index: 100;
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    width: 190px;
+    height: 30px;
+}
+
+
+.project1:hover {
+    background-color: orange;
+}
+
+.project1:active {
+    background-color: green;
+}
+
+
+.project2:hover {
+    background-color: orange;
+}
+
+.project2:active {
+    background-color: green;
+}
+
+.project3:hover {
+    background-color: orange;
+}
+
+.project3:active {
+    background-color: green;
+}
+
+.project4:hover {
+    background-color: orange;
+}
+
+.project4:active {
+    background-color: green;
+}
+
+.project5:hover {
+    background-color: orange;
+}
+
+.project5:active {
+    background-color: green;
+}
+
+
+/*-------Contact form-------*/
+.submit-button:hover{
+    background-color: orange;
+}
+
+.submit-button:active {
+    background-color: green;
+}
+
+.form-height {
+    height: 175px;
+}
+
+/*--------Copyright----------*/
+.footer {
+    clear: both;
+    background-color: #666666;
+    border-top: 10px solid #4aaaa5;
+    height: 75px;
+}
+
