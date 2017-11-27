@@ -4,7 +4,7 @@ body {
 }
 
 
-/*--------------HEADER-----------------*/
+/*--------------Top navigation bar-----------------*/
 .name-block {
     float: left;
     text-align: center;
@@ -20,14 +20,8 @@ body {
     left: 0px;
 }
 
-/*----------NAVIGATION----------*/
 .navbar {
     background-color: #fff;
-}
-
-.nav-link a {
-    color: #777777;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .nav-link a:hover {
@@ -43,17 +37,10 @@ body {
 }
 
 /*------------Main section and sidebar------------ */
-.container {
-    clear: both;
-    margin: 0 auto;
-    flex: 1 0 auto;   
-}
-
 p, form, a {
     color: #777777;
     line-height: 160%;
 }
-
 
 /*----------SOCIAL ICONS------------*/
 #github-logo {
@@ -149,11 +136,11 @@ p, form, a {
     height: 175px;
 }
 
-/*--------Copyright----------*/
+/*--------Footer/Copyright----------*/
 .footer {
     clear: both;
     background-color: #666666;
-    border-top: 10px solid #4aaaa5;
+    border-top: 10px solid #17a2b8;
     height: 75px;
 }
 
