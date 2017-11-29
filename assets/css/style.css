@@ -138,9 +138,10 @@ p, form, a {
 
 /*--------Footer/Copyright----------*/
 .footer {
-    clear: both;
     background-color: #666666;
-    border-top: 10px solid #17a2b8;
-    height: 75px;
+}
+
+.footer-border{
+    background-color: #033073;
 }
 
