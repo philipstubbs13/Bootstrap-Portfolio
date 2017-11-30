@@ -3,44 +3,18 @@ body {
     font-size: 18px;
 }
 
+.container {
+    width: 100%
+    max-width: 960px;
+    margin: 0 auto;   
+}
+
 
 /*--------------Top navigation bar-----------------*/
-.name-block {
-    float: left;
-    text-align: center;
-    border: 5px solid #4aaaa5;
-    background-color: #4aaaa5;
-    padding: 20px;
-    width: 200px;
-    height: 30px; 
-    left: 50px;
-    margin-left: 210px;
-    font-weight: 400;
-    position: absolute;
-    left: 0px;
-}
 
-.navbar {
-    background-color: #fff;
-}
-
-.nav-link a:hover {
-    color: red;
-}
-
-.nav-link a:focus {
-    color: orange;
-}
-
-.nav-link a:active {
-    color: blue;
-}
 
 /*------------Main section and sidebar------------ */
-p, form, a {
-    color: #777777;
-    line-height: 160%;
-}
+
 
 
 /*----------SOCIAL ICONS------------*/
@@ -63,65 +37,7 @@ p, form, a {
 
 
 /*------------PORTFOLIO---------------*/
-.card-body-portfolio:hover{
-    background-color: orange;
-}
 
-.card-body-portfolio:active{
-    background-color: green;
-}
-
-
-.project {
-    z-index: 100;
-    position: absolute;
-    color: white;
-    font-size: 24px;
-    width: 190px;
-    height: 30px;
-}
-
-
-.project1:hover {
-    background-color: orange;
-}
-
-.project1:active {
-    background-color: green;
-}
-
-
-.project2:hover {
-    background-color: orange;
-}
-
-.project2:active {
-    background-color: green;
-}
-
-.project3:hover {
-    background-color: orange;
-}
-
-.project3:active {
-    background-color: green;
-}
-
-.project4:hover {
-    background-color: orange;
-}
-
-.project4:active {
-    background-color: green;
-}
-
-.project5:hover {
-    background-color: orange;
-}
-
-.project5:active {
-    background-color: green;
-}
 
 
 /*-------Contact form-------*/
