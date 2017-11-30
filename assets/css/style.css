@@ -9,6 +9,10 @@ body {
     margin: 0 auto;   
 }
 
+html, body{
+    height: 100%;
+}
+
 
 /*--------------Top navigation bar-----------------*/
 
@@ -56,6 +60,10 @@ body {
 /*--------Footer/Copyright----------*/
 .footer {
     background-color: #666666;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 
